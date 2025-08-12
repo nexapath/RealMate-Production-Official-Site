@@ -79,7 +79,7 @@ export const messages = {
   }
 }
 
-export const defaultLang = 'zh-TW';
+export const defaultLang = 'en';
 
 export function getLang() {
   const saved = localStorage.getItem('lang');
